@@ -1,0 +1,44 @@
+{
+  "name": "discord-utils-badgers",
+  "version": "1.0.0",
+  "description": "Some utils in a little discord bot",
+  "main": "bot.js",
+  "engines": {
+    "node": "10.15.2",
+    "npm": "6.x"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.21.1",
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "discord.js": "^11.6.4",
+    "format": "^0.2.2",
+    "http": "0.0.0",
+    "lodash": "^4.17.20",
+    "ramda": "^0.27.1",
+    "redis": "^3.0.2",
+    "rss-parser": "^3.9.0",
+    "swearjar": "^0.2.0",
+    "winston": "^3.3.3",
+    "xkcd-api": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon -r dotenv/config bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4v1l0k/discord-utils-badgers.git"
+  },
+  "author": "X4v1l0k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x4v1l0k/discord-utils-badgers/issues"
+  },
+  "homepage": "https://github.com/x4v1l0k/discord-utils-badgers#readme"
+}
